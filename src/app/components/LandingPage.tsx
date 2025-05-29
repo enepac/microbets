@@ -81,6 +81,15 @@ export default function LandingPage() {
       >
         Submit Your MVP for Feedback →
       </a>
+
+      <div className="mt-12 text-gray-700">
+        <h2 className="text-lg font-semibold mb-2">What early users are saying:</h2>
+        <div className="space-y-3 text-sm">
+          <p>🧠 “This helped me realize my onboarding was completely unclear. Super helpful.”</p>
+          <p>🔍 “I finally got real feedback beyond &apos;cool idea.&apos; The scorecard format is gold.”</p>
+          <p>💡 “I used the feedback to reshape my pitch — it doubled signups the next week.”</p>
+        </div>
+      </div>
     </div>
   );
 }
